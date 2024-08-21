@@ -1,11 +1,11 @@
-//연락처 추가하기1
-//add.ejs 파일 만들기
+//연락처 추가하기3
+//라우트, 컨트롤러 코드 추가하기
 
 //관련파일
-// ./routes/contactRoutes-4.js
-// ./controllers/contactController-11.js
+// ./routes/contactRoutes-5.js <= contactRoutes-4.js
+// ./controllers/contactController-12.js
 // ./views/index-2.ejs
-// ./views/add-1.ejs
+// ./views/add-2.ejs
 
 const express = require("express");
 const dbConnect = require("./config/dbConnect");
