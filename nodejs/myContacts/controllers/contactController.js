@@ -35,7 +35,8 @@ const createContact = asyncHandler(async (req, res) => {
 // @route GET /contacts/:id
 const getContact = asyncHandler(async (req,res) => {
     const contact = await Contact.findById(req.params.id);
-    res.render("update-1", {contact: contact});
+    //res.render("update-1", {contact: contact});
+    res.render("update-2", {contact: contact}); //데이터바인딩
 });
 
 // @desc 연락처 수정하기 액션(UI없이 로직동작만)

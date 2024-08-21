@@ -7,6 +7,7 @@
 // ./views/index-3.ejs
 // ./views/add-2.ejs
 // ./views/update-1.ejs
+// ./views/update-2.ejs 데이터바인딩하기
 
 const express = require("express");
 const dbConnect = require("./config/dbConnect");
