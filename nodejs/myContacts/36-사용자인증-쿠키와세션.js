@@ -21,9 +21,20 @@ app.get("/", (req, res) => {
     res.send("쿠키 생성");
 });
 
-//MySQL 
-//SQL언어 지원  = select,insert,update,delete
-//MongoDB
-//No-SQL = create,save,delete,update, 검색,정렬,갯수제한
+//HTTP요청헤더에 있는 쿠키 정보를 출력한다.
+app.get("/cookie", (req,res)=>{
+    console.log(req.cookies);
+    res.send("쿠키 전송됨.(프론트->백엔드)");
+});
 
-//카페 - 공정현황 5개 엑셀파일 
+//서버에서 쿠키 삭제 요청을 하면, 클라가 지움.
+app.get("/delete-cookie", (req,res)=>{
+    res.clearCookie("Kim");
+    res.send("쿠키 삭제");
+});
+
+app.listen(5000, ()=>{
+    console.log("5000번 포트에서 서버 실행중...");
+});
+
+
