@@ -1,5 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcrypt");
+const User = require("../models/userModel");
 
 // @desc 로그인폼(화면)
 // @route GET /
@@ -39,11 +40,11 @@ const registerUser = asyncHandler(async (req, res) => {
         const hashedPassword = await bcrypt.hash(password, 10);
         console.log( password);        
         console.log( hashedPassword );
-        res.send("사용자등록 되었습니다.");
+        const user = await User.create({ username, password: hashedPassword });
+        res.status(201).json({message: "사용자 등록되었습니다.", user })
     }else{
         res.send("비번과 비번2가 틀립니다.");
     }
 });
-
 
 module.exports = { getLogin, loginUser, getRegister, registerUser };

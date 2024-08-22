@@ -5,7 +5,7 @@ const {
     loginUser,
     getRegister,
     registerUser
-} = require("../controllers/loginController-4");
+} = require("../controllers/loginController");
 
 //getLogin : 로그인폼 렌더
 //loginUser : 로그인 처리(액션)
