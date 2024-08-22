@@ -1,4 +1,5 @@
 const asyncHandler = require("express-async-handler");
+const bcrypt = require("bcrypt");
 
 // @desc 로그인폼(화면)
 // @route GET /
@@ -18,4 +19,31 @@ const loginUser = asyncHandler(async (req,res) =>{
     }
 });
 
-module.exports = { getLogin, loginUser };
+// @desc 사용자등록폼
+// @route GET /register 
+const getRegister = (req, res) => {
+    res.render("register-1");
+};
+
+// @desc 사용자등록 처리(액션)
+// @route POST /register
+const registerUser = asyncHandler(async (req, res) => {
+    const { username, password, password2 } = req.body;
+    if( !username || !password ){
+        res.send("필수값이 없습니다.");
+        return;
+    }
+    if( password === password2 ) {
+        //사용자가 입력한 암호("1234")를 해시암호화 한다.
+        //10 : 해시함수를 10번 수행한다.
+        const hashedPassword = await bcrypt.hash(password, 10);
+        console.log( password);        
+        console.log( hashedPassword );
+        
+    }else{
+        res.send("비번과 비번2가 틀립니다.");
+    }
+});
+
+
+module.exports = { getLogin, loginUser, getRegister, registerUser };
