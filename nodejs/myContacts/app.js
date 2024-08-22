@@ -1,10 +1,10 @@
 //관리자 등록하기
-//로그인 화면 구성
+//로그인 테스트하기
 
 //로그인 관련파일
-// ./routes/loginRoutes-1.js
-// ./controllers/loginController-1.js
-// ./views/home-1.ejs
+// ./routes/loginRoutes-2.js  up
+// ./controllers/loginController-2.js  up
+// ./views/home-2.ejs up
 
 //관련파일(그대로)
 // ./routes/contactRoutes-5.js

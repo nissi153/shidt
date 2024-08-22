@@ -3,7 +3,7 @@ const asyncHandler = require("express-async-handler");
 // @desc 로그인폼(화면)
 // @route GET /
 const getLogin = (req, res) => {
-    res.render("home-1");
+    res.render("home-2");
 };
 
 // @desc 로그인 처리(액션)
