@@ -11,6 +11,12 @@
 // ./controllers/loginController-6.js up
 // ./middleware/checkLogin.js
 // ./views/home-3.ejs up
+// ./views/_header-2.ejs up(로그아웃버튼)
+// ./views/index-5.ejs up
+// ./views/update-3.ejs up
+
+// home-3.ejs(로그인화면), register.ejs(회원가입) -> _home_header.ejs 사용
+// 그외 모든 ejs에서는 -> _header-2.ejs 사용
 
 //관련파일(그대로)
 // ./routes/contactRoutes-6.js
