@@ -34,7 +34,7 @@ const styles = {
 
 function Comment(props) {
   return (
-    <div style={style.wrapper}>
+    <div style={styles.wrapper}>
       <div style={styles.imageContainer}>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
