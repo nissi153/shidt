@@ -6,7 +6,8 @@ import ReactDOM from "react-dom/client"; //React.js client Next.js/server
 // import Clock from "./4-element/Clock";
 // import ConfirmDialog from "./4-element/ConfirmDialog";
 // import Comment from "./5-props/Comment";
-import CommentList from "./5-props/CommentList";
+// import CommentList from "./5-props/CommentList";
+import NotificationList from "./6-state/NotificationList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<App />);
@@ -15,4 +16,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<Clock />);
 // root.render(<ConfirmDialog />);
 // root.render(<Comment />);
-root.render(<CommentList />);
+// root.render(<CommentList />);
+root.render(<NotificationList />);
