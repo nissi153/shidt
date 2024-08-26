@@ -29,6 +29,16 @@
           <h1 className="greeting">Hello World~</h1>
         );
       }
+
+      //JSX를 함수형변수(익명함수)로 정의
+      const elementH1 = <h1 className="greeting">Hello World~111</h1>;
+
+      //ReactDOM을 이용하여 컴포넌트를 root에 렌더링
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      //함수 컴포넌트 Render
+      //root.render(React.createElement(greeting));
+      //함수형변수 Render
+      root.render(elementH1);
     </script>
   </body>
 </html>
