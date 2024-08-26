@@ -33,7 +33,7 @@ class NotificationList extends React.Component {
         this.setState({ notifications: notifications });
       } else {
         this.setState({
-          notifications: [],
+          //notifications: [],
         });
         clearInterval(timer);
       }
@@ -50,6 +50,7 @@ class NotificationList extends React.Component {
         {this.state.notifications.map((notification) => {
           return (
             <Notification
+              // key : 리스트에서 요소를 구별하기 위한 구별자
               key={notification.id}
               id={notification.id}
               message={notification.message}
