@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+# npm install 명령어로 다시 라이브러리 설치가능
+/node_modules 
 /.pnp
 .pnp.js
 
