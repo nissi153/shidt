@@ -1,12 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client"; //React.js client Next.js/server
-// import './index.css';
 import App from "./App";
+import Book from "./3-jsx/Book";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  //StrictMode : 개발단계에서 로그,문법체크 지원
-  // <React.StrictMode>
-  <App />
-  // </React.StrictMode>
-);
+root.render(<Book name="리액트 초급" price="1000" />);
