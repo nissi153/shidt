@@ -4,13 +4,15 @@ import ReactDOM from "react-dom/client"; //React.js client Next.js/server
 // import Book from "./3-jsx/Book";
 // import VM from "./3-jsx/VendingMachine";
 // import Clock from "./4-element/Clock";
-import ConfirmDialog from "./4-element/ConfirmDialog";
+// import ConfirmDialog from "./4-element/ConfirmDialog";
 // import Comment from "./5-props/Comment";
+import CommentList from "./5-props/CommentList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<App />);
 //root.render(<Book name="리액트기초" price="1000" />);
 //root.render(<VM price="1000" />);
 //root.render(<Clock />);
-root.render(<ConfirmDialog />);
+// root.render(<ConfirmDialog />);
 // root.render(<Comment />);
+root.render(<CommentList />);
