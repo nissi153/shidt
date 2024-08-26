@@ -26,7 +26,9 @@
       }
 
       const root = ReactDOM.createRoot(document.getElementById("root"));
-      //root.render(React.createElement(Greeting));
+      //React createElement로 값 전달
+      //root.render(React.createElement(Greeting, { sayWhat: "Good" }));
+      //JSX로 값 전달
       root.render(<Greeting sayWhat="Good Morning!" />);
     </script>
   </body>
