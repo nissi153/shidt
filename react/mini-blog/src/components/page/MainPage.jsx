@@ -22,10 +22,16 @@ const Container = styled.div`
 `;
 
 function MainPage() {
-  const [posts, setPosts] = useState(data);
+  //const [posts, setPosts] = useState(data);
+  const [posts, setPosts] = useState([]);
   const navigate = useNavigate();
 
-  console.log(data);
+  //   console.log(data);
+
+  useEffect(() => {
+    const storedPosts = JSON.parse(localStorage.getItem("posts")) || [];
+    setPosts(storedPosts);
+  }, []);
 
   return (
     <Wrapper>
