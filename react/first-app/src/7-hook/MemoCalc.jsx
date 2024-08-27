@@ -11,6 +11,7 @@ function MemoCalc() {
     for (let i = 0; i < 1000000000; i++) {
       result += i;
     }
+    result += count;
     return result;
   }, [count]);
 

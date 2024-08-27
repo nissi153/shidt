@@ -16,11 +16,12 @@ import ReactDOM from "react-dom/client"; //React.js client Next.js/server
 //import FileUpload from "./11-form/Calculator";
 // import Calculator from "./12-shared-state/Calculator";
 // import ProfileCard from "./13-inheritance/ProfileCard";
-import DarkOrLight from "./14-context/DarkOrLight";
-//import MemoCalc from "./7-hook/MemoCalc";
+//import DarkOrLight from "./14-context/DarkOrLight";
+// import MemoCalc from "./7-hook/MemoCalc";
+import Sample3 from "./15-style/Sample3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<App />);
 //root.render(<Book name="리액트기초" price="1000" />);
 //root.render(<VM price="1000" />);
-root.render(<DarkOrLight />);
+root.render(<Sample3 />);
