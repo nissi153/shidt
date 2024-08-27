@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 
@@ -17,7 +18,7 @@ function App() {
     <BrowserRouter>
       <MainTitleText>홍길동의 미니블로그</MainTitleText>
       <Routes>
-        <Route index element={MainPage} />
+        <Route index element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );

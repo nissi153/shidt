@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"; //하이퍼링크-바로가기
 import styled from "styled-components";
 import Button from "../ui/Button";
 import PostList from "../list/PostList";
+import data from "../../data.json";
 
 //모든 콘텐츠를 감싸는 최상위 DIV
 const Wrapper = styled.div`
@@ -21,14 +22,16 @@ const Container = styled.div`
 `;
 
 function MainPage() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState(data);
   const navigate = useNavigate();
+
+  console.log(data);
 
   return (
     <Wrapper>
       <Container>
         <Button></Button>
-        <PostList></PostList>
+        <PostList posts={posts}></PostList>
       </Container>
     </Wrapper>
   );
