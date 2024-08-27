@@ -11,7 +11,7 @@ function NameForm(props) {
 
   const handleSubmit = (event) => {
     console.log("입력한 이름:" + value);
-    //event.preventDefault(); //기본기능을 막음. submit기능-통신을 보내는 기능
+    event.preventDefault(); //기본기능을 막음. submit기능-통신을 보내는 기능
   };
 
   return (
