@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 
 //Pages
-// MainPage
+import MainPage from "./components/page/MainPage";
 // PostWritePage
 // PostViewPage
 
@@ -13,7 +13,14 @@ const MainTitleText = styled.p`
 `;
 
 function App() {
-  return <MainTitleText>홍길동의 미니블로그</MainTitleText>;
+  return (
+    <BrowserRouter>
+      <MainTitleText>홍길동의 미니블로그</MainTitleText>
+      <Routes>
+        <Route index element={MainPage} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
