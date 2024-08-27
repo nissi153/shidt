@@ -6,7 +6,7 @@ import ThemeContext from "./ThemeContext";
 //APP 안에서 많은 컴퍼넌트들이 공유해야 되는 상태변수(로그인여부,테마)는 전역형태가 필요하다.
 //어떤 컴퍼넌트에서도 바로 접근할 수 있게 해주는 것 : useContext 훅이다.
 function MainContent(props) {
-  const [theme, setTheme] = useContext(ThemeContext);
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   const styles = {
     width: "100vw",
@@ -18,7 +18,7 @@ function MainContent(props) {
   return (
     <div style={styles}>
       <p>안녕하세요. 테마 변경이 가능한 웹사이트입니다.</p>
-      <button onClick={setTheme}>테마 변경</button>
+      <button onClick={toggleTheme}>테마 변경</button>
     </div>
   );
 }
