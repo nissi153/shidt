@@ -30,8 +30,21 @@ function MainPage() {
   return (
     <Wrapper>
       <Container>
-        <Button></Button>
-        <PostList posts={posts}></PostList>
+        <Button
+          title="글 작성하기"
+          onClick={() => {
+            navigate("/post-write");
+          }}
+        ></Button>
+
+        <div style={{ height: "10px" }}></div>
+
+        <PostList
+          posts={posts}
+          onClickItem={(item) => {
+            navigate(`/post/${item.id}`);
+          }}
+        ></PostList>
       </Container>
     </Wrapper>
   );
