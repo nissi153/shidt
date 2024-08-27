@@ -8,6 +8,7 @@ import MainContent from "./MainContent";
 
 function DarkOrLight(props) {
   const [theme, setTheme] = useState("light");
+
   const toggleTheme = useCallback(() => {
     if (theme == "light") {
       setTheme("dark");
