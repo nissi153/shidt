@@ -51,7 +51,7 @@ function Calculator(props) {
     scale === "c" ? tryConvert(temperature, toFahrenheit) : temperature;
 
   // Shared State : 하위 컴퍼넌트가 공통된 부모 컴퍼넌트의 state를 공유하여 사용하는 것
-  // State 끌어올리기 :  하위 컴퍼넌트의 state를 공통된 컴퍼넌트로 끌어올려서 사용하는 것
+  // State 끌어올리기(Lifting State Up) :  하위 컴퍼넌트의 state를 공통된 컴퍼넌트로 끌어올려서 사용하는 것
 
   return (
     <div>
