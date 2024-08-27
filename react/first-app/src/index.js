@@ -17,6 +17,7 @@ import ReactDOM from "react-dom/client"; //React.js client Next.js/server
 // import Calculator from "./12-shared-state/Calculator";
 // import ProfileCard from "./13-inheritance/ProfileCard";
 import DarkOrLight from "./14-context/DarkOrLight";
+//import MemoCalc from "./7-hook/MemoCalc";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<App />);
