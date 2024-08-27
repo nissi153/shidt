@@ -13,10 +13,10 @@ import ReactDOM from "react-dom/client"; //React.js client Next.js/server
 // import ConfirmButton from "./8-event/ConfirmButton2";
 //import LandingPage from "./9-conditional-render/LandingPage";
 // import AttendanceBook from "./10-list/AttendanceBook";
-import SignUpForm from "./11-form/SignUpForm";
+import FileUpload from "./11-form/FileUpload";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<App />);
 //root.render(<Book name="리액트기초" price="1000" />);
 //root.render(<VM price="1000" />);
-root.render(<SignUpForm />);
+root.render(<FileUpload />);
