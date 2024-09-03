@@ -168,13 +168,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-      const ctx1 = document.getElementById("myChar1");
-      const ctx2 = document.getElementById("myChar2");
-      const ctx3 = document.getElementById("myChar3");
-      const ctx4 = document.getElementById("myChar4");
+      const ctx1 = document.getElementById("myChart1");
+      const ctx2 = document.getElementById("myChart2");
+      const ctx3 = document.getElementById("myChart3");
+      const ctx4 = document.getElementById("myChart4");
       drawChart(ctx1, "line");
 
-      function drawChart(cxt, type) {
+      function drawChart(ctx, type) {
         new Chart(ctx, {
           type: type,
           data: {
