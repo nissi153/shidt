@@ -67,9 +67,19 @@
     </div>
     <div class="container">
       <div class="row">
-        <!-- css : display: none; -->
+        <!-- css : display: none; 영역은 없어짐 -->
         <div class="col-6 d-none">박스1</div>
         <div class="col-6">박스2</div>
+      </div>
+      <div class="row">
+        <!-- css : visibility: hidden; 영역은 그대로 -->
+        <div class="col-6 invisible">박스1</div>
+        <div class="col-6">박스2</div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <h1 style="color: red">제목태그</h1>
+        </div>
       </div>
     </div>
 
