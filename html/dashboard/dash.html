@@ -173,6 +173,9 @@
       const ctx3 = document.getElementById("myChart3");
       const ctx4 = document.getElementById("myChart4");
       drawChart(ctx1, "line");
+      drawChart(ctx2, "bar");
+      drawChart(ctx3, "pie");
+      drawChart(ctx4, "line");
 
       function drawChart(ctx, type) {
         new Chart(ctx, {
