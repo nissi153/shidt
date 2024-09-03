@@ -53,12 +53,54 @@
                     />
                   </div>
                 </div>
+
+                <div class="mb-3 d-flex flex-row">
+                  <div
+                    class="d-flex me-2 justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-lock fa-xl"></i>
+                  </div>
+                  <div style="width: 100%">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputPw"
+                      name="inputPw"
+                      placeholder="Your Password"
+                    />
+                  </div>
+                </div>
+                <!-- 버튼들 -->
+                <div
+                  class="mb-3 d-flex flex-row justify-content-center align-items-center gap-5"
+                >
+                  <div class="text-center my-5">
+                    <button type="submit" class="btn btn-primary">
+                      로그인
+                    </button>
+                  </div>
+                  <div class="text-center my-5">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      onclick="join_form();"
+                    >
+                      회원가입
+                    </button>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      function join_form() {
+        // "localhost:3030/joinForm"
+        window.location.href = "./join.html";
+      }
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
