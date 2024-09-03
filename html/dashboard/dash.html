@@ -23,6 +23,9 @@
         justify-content: center;
         align-items: center;
       }
+      canvas {
+        height: 100px;
+      }
     </style>
   </head>
   <body>
@@ -147,20 +150,19 @@
             </div>
             <div id="section" class="col-8">
               <div class="row">
-                <div class="col-6 border" style="height: 300px">
-                  <h3>라인 차트</h3>
+                <h3 class="center mb-3">용접현황</h3>
+              </div>
+              <div class="row">
+                <div class="col-6 border center" style="height: 300px">
                   <canvas id="myChart1"></canvas>
                 </div>
-                <div class="col-6 border" style="height: 300px">
-                  <h3>바 차트</h3>
+                <div class="col-6 border center" style="height: 300px">
                   <canvas id="myChart2"></canvas>
                 </div>
-                <div class="col-6 border" style="height: 300px">
-                  <h3>파이 차트</h3>
+                <div class="col-6 border center" style="height: 300px">
                   <canvas id="myChart3"></canvas>
                 </div>
                 <div class="col-6 border" style="height: 300px">
-                  <h3>라인 차트</h3>
                   <canvas id="myChart4"></canvas>
                 </div>
               </div>
@@ -188,7 +190,7 @@
             labels: ["FCAW", "EGW", "FCSA", "FAB", "SAW"],
             datasets: [
               {
-                label: "# of Votes",
+                label: "용접불량률%",
                 data: [12, 19, 3, 5, 2],
                 borderWidth: 1,
               },
