@@ -166,6 +166,38 @@
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx1 = document.getElementById("myChar1");
+      const ctx2 = document.getElementById("myChar2");
+      const ctx3 = document.getElementById("myChar3");
+      const ctx4 = document.getElementById("myChar4");
+      drawChart(ctx1, "line");
+
+      function drawChart(cxt, type) {
+        new Chart(ctx, {
+          type: type,
+          data: {
+            labels: ["FCAW", "EGW", "FCSA", "FAB", "SAW"],
+            datasets: [
+              {
+                label: "# of Votes",
+                data: [12, 19, 3, 5, 2],
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
+              },
+            },
+          },
+        });
+      }
+    </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
