@@ -5,7 +5,7 @@ const cors = require("cors");
 
 //모듈 설치
 //npm i nodemon express mysql
-//npm i cors
+//npm i cors ejs
 
 //CORS 허용
 app.use(
@@ -15,6 +15,10 @@ app.use(
 );
 
 const port = process.env.PORT || 3030;
+
+//뷰엔진 설정하기
+app.set("view engine", "ejs");
+app.set("views", "./views");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -36,7 +40,12 @@ app.get("/", (req, res) => {
   });
 });
 
-// 용접불량율 리스트 요청
+// 대시보드 html 요청
+app.get("/dashboard", (req, res) => {
+  res.render("dashboard");
+});
+
+// 용접불량율 리스트 요청 - REST API
 // URL : GET localhost:3030/list
 app.get("/list", (req, res) => {
   conn.query("SELECT * FROM welding", (error, results) => {
