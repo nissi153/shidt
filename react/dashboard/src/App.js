@@ -1,115 +1,65 @@
 import "./App.css";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Alert, Accordion, Container, Row } from "react-bootstrap";
-import styled from "styled-components";
+import { Line } from "react-chartjs-2";
+import { fetchWeldingList } from "./apiService";
 
-//프로젝트 순서
-//1. CRA로 리액트 프로젝트 만들기
-// 내문서>react> npx create-react-app dashborad
-//2. 프로젝트 폴더로 이동하기
-// 내문서>react> cd dashboard
-//3. 프로젝트 시작하기
-// 내문서>react>dashboard> npm start
-//4. 프로젝트 파일 정리
-// test파일, vital파일, 로고파일, App.js 필요없는 컴퍼넌트 지움, index.js - vital정리
-
-//리액트에 부트스트랩 사용하기
-//1.bootstrap 관련 모듈 설치하기
-//  npm install react-bootstrap bootstrap
-//2. bootstrap.min.css import하기
-//App.js에
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//3. 컴포넌트 임포트해서 사용하기
-//참조: https://react-bootstrap.netlify.app/docs/components/accordion
-//4. styled-component와 bootstrap 함께 사용하기
-// npm i styled-components
-
-const styles = {
-  marginTop: 10,
-  height: 100,
-  width: 100,
-  backgroundColor: "green",
+const preset = {
+  labels: ["FCAW111", "EGW", "FCSA", "FAB", "SAW"], // 초기 레이블
+  datasets: [
+    {
+      type: "line", // 라인 차트 타입
+      label: "line", // 라인 차트 레이블
+      backgroundColor: "rgb(255, 99, 132)", // 라인 차트 배경색
+      data: [12, 19, 3, 5, 20], // 라인 차트 데이터
+      borderColor: "red", // 라인 차트 경계선 색
+      borderWidth: 2, // 라인 차트 경계선 두께
+    },
+    {
+      type: "bar", // 바 차트 타입
+      label: "bar", // 바 차트 레이블
+      backgroundColor: "rgb(75, 192, 192)", // 바 차트 배경색
+      data: [12, 19, 3, 5, 20], // 바 차트 데이터
+    },
+  ],
 };
-const styles2 = {
-  marginTop: 10,
-  height: 100,
-  backgroundColor: "brown",
-};
-const styles3 = {
-  marginTop: 10,
-  height: 100,
-  backgroundColor: "orange",
-};
-// styled component와 bootstrap를 함께 적용하기
-const StyledButton = styled(Button)`
-  // css문법을 사용한다.
-  color: cyan;
-  font-size: 20px;
-  margin: 10px;
-  border: 2px solid blue;
-  border-radius: 3px;
-  background-color: gray;
-`;
 
 function App() {
+  // 차트 데이터를 저장하는 상태와 API로 가져온 리스트 상태를 각각 선언
+  const [list, setList] = useState([]);
+  const [realData, setRealData] = useState(preset);
+
+  // 컴포넌트가 처음 렌더링될 때 API에서 데이터를 가져오는 useEffect 훅
+  useEffect(() => {
+    const getList = async () => {
+      // API에서 데이터를 가져오는 함수
+      const fetchedList = await fetchWeldingList();
+      setList(fetchedList); // 가져온 데이터를 list 상태에 저장
+      console.log("fetchedList:", fetchedList);
+
+      // API에서 가져온 데이터를 기반으로 레이블과 데이터 생성
+      const labels = fetchedList.data.map((w_data) => w_data.w_method); // 용접 방법(w_method)을 레이블로 설정
+      const w_defect_rates = fetchedList.data.map(
+        (w_data) => w_data.w_defect_rate
+      ); // 결함율(w_defect_rate)을 데이터로 설정
+
+      // realData 상태를 API에서 가져온 데이터로 업데이트
+      setRealData((prevData) => ({
+        ...prevData, // 이전 상태 유지
+        labels: labels, // 레이블을 가져온 데이터로 업데이트
+        datasets: prevData.datasets.map((dataset) => ({
+          ...dataset,
+          data: w_defect_rates, // 각 차트의 데이터를 불량율로 업데이트
+        })),
+      }));
+    };
+    getList(); // 데이터 가져오기 실행
+  }, []); // 빈 배열이므로 컴포넌트가 처음 렌더링될 때 한 번만 실행
+
   return (
     <div className="App">
-      <StyledButton as="input" type="button" value="스타일드 버튼" />
-      <Container>
-        <Row>
-          <div
-            style={styles2}
-            className="col-6 d-flex justify-content-center align-items-center"
-          >
-            <h3>Hello</h3>
-          </div>
-          <div style={styles3} className="col-6">
-            <h3>React</h3>
-          </div>
-        </Row>
-      </Container>
-
-      {/* JSX에서 동작할 때 CSS 적용 */}
-      {/* {} : JSX에서 JS를 사용할 때 */}
-      {/* {} : JS 객체 - KeyValue */}
-      <h1 style={{ backgroundColor: "green", color: "orange" }}>Hello React</h1>
-
-      <div style={{ height: 100, width: 100, backgroundColor: "green" }}></div>
-
-      <div style={styles}></div>
-
-      <Button as="input" type="button" value="버튼" />
-
-      <Alert key="success" variant="success">
-        This is a "success" alert—check it out!
-      </Alert>
-
-      <Accordion>
-        <Accordion.Item eventKey="0">
-          <Accordion.Header>Accordion Item #1</Accordion.Header>
-          <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
-          <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
+      {/* realData 상태를 기반으로 차트를 그리며, 데이터 변경 시 차트가 다시 렌더링됨 */}
+      <Line redraw={true} data={realData} />
     </div>
   );
 }
