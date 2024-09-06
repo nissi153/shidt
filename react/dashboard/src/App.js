@@ -1,7 +1,10 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
+import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
+import styled from "styled-components";
 import { fetchWeldingList } from "./apiService";
 
 const preset = {

@@ -27,11 +27,11 @@ INSERT INTO welding VALUES
 INSERT INTO welding VALUES
 	(0, 'EGW', 5, CURRENT_DATE); -- 현재 날짜로 날짜 입력
 INSERT INTO welding VALUES
-	(0, 'FCSA', 5, CURRENT_DATE);
+	(0, 'FCSA', 15, CURRENT_DATE);
 INSERT INTO welding VALUES
-	(0, 'FAB', 5, CURRENT_DATE);
+	(0, 'FAB', 25, CURRENT_DATE);
 INSERT INTO welding VALUES
-	(0, 'SAW', 5, CURRENT_DATE);    
+	(0, 'SAW', 12, CURRENT_DATE);    
 
 SELECT * FROM welding;
 
