@@ -19,6 +19,7 @@ export const fetchWeldingList = async () => {
       throw new Error("서버에서 데이터를 가져오는 데 실패했습니다.");
     }
 
+    //JSON : 자바스크립트의 내장객체로서 JSON문자열 변환에 사용.
     return JSON.parse(text);
   } catch (error) {
     console.error("Error fetching welding list:", error.message);

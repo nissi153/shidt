@@ -45,6 +45,9 @@ function App() {
         (w_data) => w_data.w_defect_rate
       ); // 결함율(w_defect_rate)을 데이터로 설정
 
+      //{"error":false,"message":"Successfully retrived all welding",
+      //"data":[{"w_no":1,"w_method":"FCAW","w_defect_rate":10,"w_date":"2023-12-31T15:00:00.000Z"},{"w_no":2,"w_method":"EGW","w_defect_rate":5,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":3,"w_method":"FCSA","w_defect_rate":15,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":4,"w_method":"FAB","w_defect_rate":25,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":5,"w_method":"SAW","w_defect_rate":12,"w_date":"2024-09-08T15:00:00.000Z"}]}
+
       // realData 상태를 API에서 가져온 데이터로 업데이트
       setRealData((prevData) => ({
         ...prevData, // 이전 상태 유지
