@@ -219,13 +219,22 @@
 
           // 에러가 없을 경우 데이터 처리
           if (!result.error) {
-            const weldingData = result.data;
+            const weldingData = result.data; //배열데이터
+
+            //{"error":false,
+            // "message":"Successfully retrived all welding",
+            // "data":[{"w_no":1,"w_method":"FCAW","w_defect_rate":10,"w_date":"2023-12-31T15:00:00.000Z"},
+            //         {"w_no":2,"w_method":"EGW","w_defect_rate":5,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":3,"w_method":"FCSA","w_defect_rate":15,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":4,"w_method":"FAB","w_defect_rate":25,"w_date":"2024-09-08T15:00:00.000Z"},{"w_no":5,"w_method":"SAW","w_defect_rate":12,"w_date":"2024-09-08T15:00:00.000Z"}]}
 
             // 용접 방식을 라벨로 사용
-            const labels = weldingData.map((item) => item.w_method);
+            const labels = weldingData.map((item) => {
+              return item.w_method;
+            });
+            //["FCAW", "EGW", ... ]
 
             // 불량률 데이터를 추출
             const defectRates = weldingData.map((item) => item.w_defect_rate);
+            //[10, 5, ....]
 
             // 차트 그리기 (line, bar, pie)
             drawChart(

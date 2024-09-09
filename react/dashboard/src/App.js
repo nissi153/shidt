@@ -4,11 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
-import styled from "styled-components";
 import { fetchWeldingList } from "./apiService";
 
 const preset = {
-  labels: ["FCAW111", "EGW", "FCSA", "FAB", "SAW"], // 초기 레이블
+  labels: ["FCAW", "EGW", "FCSA", "FAB", "SAW"], // 초기 레이블
   datasets: [
     {
       type: "line", // 라인 차트 타입
