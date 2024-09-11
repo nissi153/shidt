@@ -162,7 +162,7 @@
                 <div class="col-6 border center" style="height: 300px">
                   <canvas id="myChart3"></canvas>
                 </div>
-                <div class="col-6 border" style="height: 300px">
+                <div class="col-6 border center" style="height: 300px">
                   <canvas id="myChart4"></canvas>
                 </div>
               </div>
@@ -239,27 +239,27 @@
             // 차트 그리기 (line, bar, pie)
             drawChart(
               document.getElementById("myChart1"),
-              "line",
+              "radar",
               labels,
               defectRates
             );
             drawChart(
               document.getElementById("myChart2"),
-              "bar",
+              "doughnut",
               labels,
               defectRates
             );
             drawChart(
               document.getElementById("myChart3"),
-              "pie",
+              "polarArea",
               labels,
               defectRates
             );
-            drawChart(
+            drawMixedChart(
               document.getElementById("myChart4"),
-              "line",
-              labels,
-              defectRates
+              "bar",
+              [10, 20, 30, 40],
+              [20, 10, 30, 40]
             );
           } else {
             console.error("Error:", result.message);
@@ -273,7 +273,7 @@
       // 차트를 그리는 함수
       function drawChart(ctx, type, labels, data) {
         new Chart(ctx, {
-          type: type, // 차트 종류 (line, bar, pie 등)
+          type: type, // 차트 종류 (line, bar, pie, doughnut, polarArea, radar 등)
           data: {
             labels: labels, // 차트의 라벨 (용접 방식)
             datasets: [
@@ -288,6 +288,37 @@
             scales: {
               y: {
                 beginAtZero: true, // y축이 0부터 시작
+              },
+            },
+          },
+        });
+      }
+
+      function drawMixedChart(ctx, type, arrData1, arrData2) {
+        new Chart(ctx, {
+          type: type,
+          data: {
+            datasets: [
+              {
+                label: "Bar Dataset",
+                data: arrData1,
+                // this dataset is drawn below
+                order: 2,
+              },
+              {
+                label: "Line Dataset",
+                data: arrData2,
+                type: "line",
+                // this dataset is drawn on top
+                order: 1,
+              },
+            ],
+            labels: ["January", "February", "March", "April"],
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
               },
             },
           },
