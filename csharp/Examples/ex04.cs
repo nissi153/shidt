@@ -84,6 +84,38 @@ namespace Examples {
             a = 99;
             Console.WriteLine($"{a ?? 0}"); // a는 null이 아니므로 99 출력
 
+            //연습문제3
+            //1. 정수형 변수 하나를 선언하고 123으로 초기화한다.
+            //  백의 자릿수와 십의 자릿수, 일의 자릿수를 구하여 출력하시오.
+            // 출력예) 백의 자릿수: 1
+            //        십의 자릿수: 2
+            //        일의 자릿수: 3
+            int myInt = 123;
+            Console.WriteLine($"백의 자릿수는 {myInt/100}");
+            Console.WriteLine($"십의 자릿수는 {(myInt / 10) % 10}");
+            Console.WriteLine($"십의 자릿수는 {myInt % 10}");
+
+            //2. 콘솔로부터 정수 2개를 입력받고
+            // 더 큰 수를 출력하시오.
+            // 입력예) 10
+            //        20
+            // 출력예) 20
+            int myInt1 = Convert.ToInt32(Console.ReadLine());
+            int myInt2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine( myInt1 >= myInt2 ? myInt1 : myInt2 );
+
+            //3. 콘솔로부터 10자미만의 문자열을 입력받고,
+            // null이 아니라면(null 조건부 연산자 사용 ?. ?[]), 그 문자열의 길이를 출력하시오.
+            // string str; str.Length 문자열의 길이
+            string str = Console.ReadLine();
+            Console.WriteLine( str?.Length );
+
+            //4. string input = null 로 선언하고
+            // input이 null이라면 기본값 "null값입니다."를 출력하는 코드를 작성하시오.
+            // null 병합 연산자 사용 ??
+            string input = null;
+            Console.WriteLine(input ?? "null값입니다.");
+
 
         }
     }
