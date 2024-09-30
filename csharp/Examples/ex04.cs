@@ -73,6 +73,17 @@ namespace Examples {
 
 
             //null병합 연산자 : ??
+            //nullable 타입 : int? , null일수도 있는 타입을 의미
+            
+            //a ?? 0의 의미:
+            //만약 a가 null이면 0을 반환.
+            //만약 a에 값이 있으면 그 값을 반환.
+            int? a = null;
+            Console.WriteLine($"{a ?? 0}"); // a는 null이므로 0 출력
+
+            a = 99;
+            Console.WriteLine($"{a ?? 0}"); // a는 null이 아니므로 99 출력
+
 
         }
     }
