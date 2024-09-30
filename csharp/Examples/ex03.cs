@@ -32,6 +32,16 @@ namespace Examples
             //        민국
             // 출력예) 대한민국
 
+            //문자열 보간
+            int myNum = 10;
+            string msg = $"myNum의 값은 {myNum}입니다.";
+            Console.WriteLine(msg);
+
+            //4. 콘솔로부터 정수 1개를 입력받고
+            // 문자열 보간을 이용하여 출력하시오.
+            // 입력예) 20
+            // 출력예) 입력된 숫자는 20입니다.
+
         }
     }
 }
