@@ -28,6 +28,20 @@ namespace Examples
             float myFloat2 = 3.14f;
             int myInt4 = (int)myFloat2; //실수 -> 정수(소숫점 잘림)
             Console.WriteLine(myInt4);
+
+            //문자열을 숫자로 형변환
+            string myString = "123";
+            int myNum1 = int.Parse(myString);
+            int myNum2 = Int32.Parse(myString);
+            Console.WriteLine(myNum1);
+            float myNum3 = float.Parse("3.14");
+            Console.WriteLine(myNum3);
+
+            //숫자를 문자열로 형변환
+            int myNum4 = 30;
+            string myStr1 = myNum4.ToString();
+            Console.WriteLine(myStr1);
+            Console.WriteLine(myStr1.GetType().Name);
         }
     }
 }
