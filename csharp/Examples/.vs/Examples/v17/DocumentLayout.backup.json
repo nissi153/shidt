@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\examples.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:examples.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Examples",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
+              "RelativeDocumentMoniker": "Examples.csproj",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
+              "RelativeToolTip": "Examples.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T04:48:12.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ex01.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
+              "RelativeDocumentMoniker": "EX100\\ex01.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
+              "RelativeToolTip": "EX100\\ex01.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T04:40:02.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +73,7 @@
               "RelativeDocumentMoniker": "ex03.cs",
               "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex03.cs",
               "RelativeToolTip": "ex03.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T02:48:37.231Z",
               "EditorCaption": ""
@@ -60,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex01.cs",
               "RelativeDocumentMoniker": "ex01.cs",
@@ -72,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
