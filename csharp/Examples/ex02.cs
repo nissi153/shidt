@@ -42,6 +42,17 @@ namespace Examples
             string myStr1 = myNum4.ToString();
             Console.WriteLine(myStr1);
             Console.WriteLine(myStr1.GetType().Name);
+
+            //연습문제
+            //1. 정수형 변수 100을 선언하고,
+            //  실수형으로 형변환 한 후에 그 변수를 출력하시오.
+            //2. 실수형 변수 3.14를 선언하고
+            // 정수형으로 형변환 한 후에 그 변수를 출력하시오.
+            //3. int 타입 변수에 200을 넣어 선언하고
+            //  long타입으로 형변환 한 후에 출력하시오.
+            //4. long 타입 변수에 200억을 넣어 선언하고,
+            // int 타입으로 형변환 한 후에 출력하시오.(잘림현상 발생!)
+
         }
     }
 }
