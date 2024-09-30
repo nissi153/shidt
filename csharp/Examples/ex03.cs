@@ -1,11 +1,8 @@
 ﻿using System;
 
-namespace Examples
-{
-    internal class ex03
-    {
-        static void Main()
-        {
+namespace Examples {
+    internal class ex03 {
+        static void Main() {
             //콘솔로부터 입력받기
             //Console.Write("입력하세요:");
             //string input = Console.ReadLine();
@@ -21,7 +18,7 @@ namespace Examples
             //int myInt = Convert.ToInt32(Console.ReadLine());
             Console.Write("입력하세요:");
             int myInt = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(myInt * 10 );
+            Console.WriteLine(myInt * 10);
 
             //2. 콘솔로부터 정수 1개를 입력받고 (1~100까지 중 하나)
             //  그 수가 짝수이면 "짝수", 홀수이면 "홀수"라고 출력하시오.
@@ -30,9 +27,9 @@ namespace Examples
             // 출력예) 홀수
             Console.Write("입력하세요:");
             myInt = Convert.ToInt32(Console.ReadLine());
-            if (myInt % 2 == 0) { 
+            if(myInt % 2 == 0) {
                 Console.WriteLine("짝수");
-            }else{
+            } else {
                 Console.WriteLine("홀수");
             }
             //3. 콘솔로부터 문자열 2개를 입력받고, 합쳐서 출력하시오.
@@ -44,7 +41,7 @@ namespace Examples
             string str1 = Console.ReadLine();
             Console.WriteLine("문자열 2:");
             string str2 = Console.ReadLine();
-            Console.WriteLine( str1 + str2 );
+            Console.WriteLine(str1 + str2);
 
             //문자열 보간
             //int myNum = 10;
