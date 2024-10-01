@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+
+
 
 namespace Examples{
     internal class ex05{
@@ -67,6 +70,21 @@ namespace Examples{
             // 누가 승리하는지 출력하시오.
             // 입력예) 주사위값 4개
             // 출력예) 영희 승! or 철수 승!
+            int dice_c1 = rand.Next(1, 6);
+            int dice_c2 = rand.Next(1, 6);
+            int dice_y1 = rand.Next(1, 6);
+            int dice_y2 = rand.Next(1, 6);
+            Console.WriteLine($"철수:{dice_c1},{dice_c2}");
+            Console.WriteLine($"영희:{dice_y1},{dice_y2}");
+            int dice_c_sum = dice_c1 + dice_c2;
+            int dice_y_sum = dice_y1 + dice_y2;
+            if( dice_c_sum == dice_y_sum) {
+                Console.WriteLine("무승부");
+            } else if( dice_c_sum > dice_y_sum ) {
+                Console.WriteLine("철수 승!");
+            } else {
+                Console.WriteLine("영희 승!");
+            }
 
             //2. 랜덤한 정수 (0부터 9사이)를 2개 뽑아서
             // 첫번째 정수는 십의 자리로, 두번째 정수는 일의 자리로 생성하여
@@ -95,10 +113,33 @@ namespace Examples{
             // 0부터 9사이의 정수값을 차례로 3개 발생시키고
             // 그 값을 반대로 출력하시오.(ArrayList나 배열 사용)
             // 배열: int[] student = new int[6];
-            // 리스트: ArrayList<int> list = new ArrayList(); list.add(3);
+            // 리스트: ArrayList<int> list = new ArrayList(); list.Add(3);
             // 입력예) 3 6 8
             // 출력예) 8 6 3
+            List<int> list = new List<int>();
+            for(int i = 0; i < 3; i++) {
+                list.Add(rand.Next(0,9));
+            }
+            Console.WriteLine(string.Join(' ', list));
+            list.Reverse();
+            Console.WriteLine(string.Join(' ', list));
 
+            ArrayList list2 = new ArrayList();
+            for(int i = 0; i < 3; i++) {
+                list2.Add(rand.Next(0, 9));
+            }
+            Console.WriteLine(string.Join(" ", list2.ToArray()));
+            //foreach( int a in list2) {
+            //    Console.Write(a);
+            //    Console.Write(" ");
+            //}
+            
+            list2.Reverse();
+            Console.WriteLine(string.Join(" ", list2.ToArray()));
+            //foreach(int a in list2) {
+            //    Console.Write(a);
+            //    Console.Write(" ");
+            //}
         }
     }
 }
