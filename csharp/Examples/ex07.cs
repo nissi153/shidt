@@ -12,15 +12,15 @@ namespace Examples {
             // 증감문
             //}
             int i = 0;
-            while(i < 5 ) {
-                Console.WriteLine( i );
+            while(i < 5) {
+                Console.WriteLine(i);
                 i++;
             }
             //무한루프
             i = 0;
             while(true) {
-                Console.WriteLine( i );
-                if( i > 10) {
+                Console.WriteLine(i);
+                if(i > 10) {
                     break;
                 }
                 i++;
@@ -44,7 +44,7 @@ namespace Examples {
                 int dice = rnd.Next(1, 6);
                 //6이면 뒤로 한칸이다.
                 if(dice == 6) {
-                    if( 턴 == 0) {
+                    if(턴 == 0) {
                         철수위치--;
                         Console.WriteLine($"철수: {dice}  뒤로 한칸");
                     } else {
@@ -55,7 +55,7 @@ namespace Examples {
                 }
                 //2나 4이면 1칸 전진
                 if(dice == 2 || dice == 4) {
-                    if( 턴 == 0) {
+                    if(턴 == 0) {
                         철수위치++;
                         Console.WriteLine($"철수: {dice}  한칸 전진");
                     } else {
@@ -72,7 +72,7 @@ namespace Examples {
                 }
 
                 //턴 바꿈
-                if( 턴 == 0) {
+                if(턴 == 0) {
                     턴 = 1;
                 } else {
                     턴 = 0;
@@ -103,7 +103,34 @@ namespace Examples {
             //         조현우 수비 - 왼쪽
             //        골인!
 
-
+            //손흥민 킥
+            int 킥방향 = 0; //왼쪽(0), 가운데(1), 오른쪽(2)
+            int randomNum = rnd.Next(1, 10);
+            if(randomNum <= 3) { //1,2,3이면 왼쪽 킥
+                킥방향 = 0;
+            } else if(randomNum <= 5) { //4,5이면 가운데킥
+                킥방향 = 1;
+            } else {
+                킥방향 = 2;
+            }
+            //조현우 수비
+            int 수비방향 = 0; //왼쪽(0), 가운데(1), 오른쪽(2)
+            randomNum = rnd.Next(1, 10);
+            if(randomNum <= 4) { //왼쪽수비
+                수비방향 = 0;
+            } else if(randomNum <= 7) { //가운데수비
+                수비방향 = 1;
+            } else { //오른쪽수비
+                수비방향 = 2;
+            }
+            Console.WriteLine(킥방향);
+            Console.WriteLine(수비방향);
+            //판정로직
+            if( 킥방향 == 수비방향) {
+                Console.WriteLine("방어성공~");
+            } else {
+                Console.WriteLine("골인!");
+            }
         }
     }
 }
