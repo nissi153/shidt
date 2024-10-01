@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\examples.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ex06.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex06.cs",
+              "RelativeDocumentMoniker": "ex06.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex06.cs",
+              "RelativeToolTip": "ex06.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T02:12:52.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ex05.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex05.cs",
               "RelativeDocumentMoniker": "ex05.cs",
               "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex05.cs",
               "RelativeToolTip": "ex05.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAxwLoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAxwLkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T05:04:40.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ex04.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex04.cs",
               "RelativeDocumentMoniker": "ex04.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ex03.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex03.cs",
               "RelativeDocumentMoniker": "ex03.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Examples",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
               "RelativeDocumentMoniker": "Examples.csproj",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
               "RelativeDocumentMoniker": "EX100\\ex01.cs",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ex02.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex02.cs",
               "RelativeDocumentMoniker": "ex02.cs",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex01.cs",
               "RelativeDocumentMoniker": "ex01.cs",
@@ -130,11 +147,12 @@
               "RelativeToolTip": "ex01.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:15:17.02Z"
+              "WhenOpened": "2024-09-30T00:15:17.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -142,7 +160,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:04:12.103Z"
+              "WhenOpened": "2024-09-30T00:04:12.103Z",
+              "EditorCaption": ""
             }
           ]
         }
