@@ -91,6 +91,10 @@ namespace Examples{
             // 출력하시오.
             // 입력예) 랜덤한 정수 2개 1과 3
             // 출력계) 13
+            int r1 = rand.Next(0, 9);
+            int r2 = rand.Next(0, 9);
+            Console.WriteLine($"{r1},{r2}");
+            Console.WriteLine( r1 * 10 + r2 );
 
             //3. 1부터 100사이의 랜덤한 정수를 하나 발생시키고
             // 90점이상이면 "A"
@@ -100,6 +104,19 @@ namespace Examples{
             // 그외의 수이면 "E" 라고 출력하시오.
             // 입력예) 88
             // 출력예) B
+            int score = rand.Next(1, 100);
+            //if else if, switch 
+            if(score >= 90) {
+                Console.WriteLine("A");
+            }else if(score >= 80) {
+                Console.WriteLine("A");
+            }else if(score >= 70) {
+                Console.WriteLine("C");
+            }else if(score >= 60) {
+                Console.WriteLine("D");
+            }else {
+                Console.WriteLine("E");
+            }
 
             //4. 철수와 영희가 교대로 주사위를 계속 던져(무한 루프)
             // 같은 주사위의 값이 먼저 나온 사람이 승리하게 된다.
