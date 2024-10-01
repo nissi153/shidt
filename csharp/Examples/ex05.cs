@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
-
-
+using System.Collections.Generic;
 
 namespace Examples{
     internal class ex05{
@@ -125,6 +124,23 @@ namespace Examples{
             //         영희 5
             //         철수 4
             //         철수 승!
+            // 철수 2 3 4 1 2 2
+            while(true) {
+                dice_c1 = rand.Next(1, 6);
+                dice_y1 = rand.Next(1, 6);
+                dice_c2 = rand.Next(1, 6);
+                dice_y2 = rand.Next(1, 6);
+                Console.WriteLine($"철수 {dice_c1},{dice_c2}");
+                Console.WriteLine($"영희 {dice_y1},{dice_y2}");
+                if(dice_c1 == dice_c2) {
+                    Console.WriteLine("철수 승!");
+                    break; //무한루프 탈출!
+                }
+                if(dice_y1 == dice_y2) {
+                    Console.WriteLine("영희 승!");
+                    break; //무한루프 탈출!
+                }
+            }
 
             //5. 100제 - 34번
             // 0부터 9사이의 정수값을 차례로 3개 발생시키고
@@ -133,30 +149,47 @@ namespace Examples{
             // 리스트: ArrayList<int> list = new ArrayList(); list.Add(3);
             // 입력예) 3 6 8
             // 출력예) 8 6 3
+
+            //Generic(제네릭) : 클래스안에 데이터 타입을 다양하게 넣는 것
+            //배열 Array(논-제네릭)
+            int[] arrayNum = new int[3];
+            for(int i=0; i<3; i++) {
+                arrayNum[i] = rand.Next(0, 9);
+                Console.WriteLine(arrayNum[i]); //배열의 인덱스는 0부터이다.
+            }
+            for( int i=2; i>-1; i--) {
+                Console.WriteLine(arrayNum[i]);
+            }
+
+            //배열 : 같은 타입의 데이터를 순차적으로 나열한 자료구조
+            //리스트 - 제네릭 (List) : 배열 + 삽입,삭제,추가 기능 지원
+            //리스트 - 논제네릭 (ArrayList) : 배열 + 삽입,삭제,추가 기능 지원
+
+            //리스트 List(제네릭)
             List<int> list = new List<int>();
             for(int i = 0; i < 3; i++) {
-                list.Add(rand.Next(0,9));
+                list.Add(rand.Next(0, 9));
             }
             Console.WriteLine(string.Join(' ', list));
             list.Reverse();
             Console.WriteLine(string.Join(' ', list));
 
+            for(int i = 0; i < 3; i++) {
+                Console.WriteLine(list[i]);
+            }
+            foreach(int num2 in list) {
+                Console.WriteLine(num2);
+            }
+
+            //리스트 ArrayList(논-제네릭)
             ArrayList list2 = new ArrayList();
             for(int i = 0; i < 3; i++) {
                 list2.Add(rand.Next(0, 9));
             }
             Console.WriteLine(string.Join(" ", list2.ToArray()));
-            //foreach( int a in list2) {
-            //    Console.Write(a);
-            //    Console.Write(" ");
-            //}
-            
             list2.Reverse();
             Console.WriteLine(string.Join(" ", list2.ToArray()));
-            //foreach(int a in list2) {
-            //    Console.Write(a);
-            //    Console.Write(" ");
-            //}
+            
         }
     }
 }
