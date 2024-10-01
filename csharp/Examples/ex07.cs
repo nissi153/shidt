@@ -36,6 +36,61 @@ namespace Examples {
             //         ...
             //         영희: 4 1칸전진!
             //         영희 승!
+            Random rnd = new Random();
+            int 철수위치 = 0;
+            int 영희위치 = 0;
+            int 턴 = 0; //0 철수턴 1 영희턴
+            while(true) {
+                int dice = rnd.Next(1, 6);
+                //6이면 뒤로 한칸이다.
+                if(dice == 6) {
+                    if( 턴 == 0) {
+                        철수위치--;
+                        Console.WriteLine($"철수: {dice}  뒤로 한칸");
+                    } else {
+                        영희위치--;
+                        Console.WriteLine($"영희: {dice}  뒤로 한칸");
+                    }
+                    continue;
+                }
+                //2나 4이면 1칸 전진
+                if(dice == 2 || dice == 4) {
+                    if( 턴 == 0) {
+                        철수위치++;
+                        Console.WriteLine($"철수: {dice}  한칸 전진");
+                    } else {
+                        영희위치++;
+                        Console.WriteLine($"영희: {dice}  한칸 전진");
+                    }
+                    continue;
+                }
+                // 홀수(1,3,5)이면 그 자리에
+                if(턴 == 0) {
+                    Console.WriteLine($"철수: {dice}  그자리");
+                } else {
+                    Console.WriteLine($"영희: {dice}  그자리");
+                }
+
+                //턴 바꿈
+                if( 턴 == 0) {
+                    턴 = 1;
+                } else {
+                    턴 = 0;
+                }
+
+                Console.WriteLine($"철수위치{철수위치}");
+                Console.WriteLine($"영희위치{영희위치}");
+
+                if(철수위치 == 10) {
+                    Console.WriteLine($"철수 승");
+                    break;
+                }
+                if(영희위치 == 10) {
+                    Console.WriteLine($"영희 승");
+                    break;
+                }
+            }
+
             //2. 페널티킥 게임
             // 손흥민이 공을 차고, 조현우가 골키퍼를 한다.
             // 공의 방향은 왼쪽(0), 가운데(1), 오른쪽(2) 이다.
