@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,19 +71,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ex10.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex10.cs",
+              "RelativeDocumentMoniker": "ex10.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex10.cs",
+              "RelativeToolTip": "ex10.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:43:40.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ex09.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex09.cs",
               "RelativeDocumentMoniker": "ex09.cs",
               "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex09.cs",
               "RelativeToolTip": "ex09.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T00:15:28.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ex08.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex08.cs",
               "RelativeDocumentMoniker": "ex08.cs",
@@ -92,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ex07.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex07.cs",
               "RelativeDocumentMoniker": "ex07.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ex06.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex06.cs",
               "RelativeDocumentMoniker": "ex06.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ex05.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex05.cs",
               "RelativeDocumentMoniker": "ex05.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ex04.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex04.cs",
               "RelativeDocumentMoniker": "ex04.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ex03.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex03.cs",
               "RelativeDocumentMoniker": "ex03.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Examples",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
               "RelativeDocumentMoniker": "Examples.csproj",
@@ -166,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
               "RelativeDocumentMoniker": "EX100\\ex01.cs",
@@ -178,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ex02.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex02.cs",
               "RelativeDocumentMoniker": "ex02.cs",
@@ -190,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex01.cs",
               "RelativeDocumentMoniker": "ex01.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
