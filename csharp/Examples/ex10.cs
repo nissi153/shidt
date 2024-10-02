@@ -66,6 +66,26 @@ namespace Examples {
             while(stack.Count > 0) {
                 Console.WriteLine(stack.Pop());
             }
+
+            //해쉬테이블 HashTable
+            //해쉬 : Hash 암호화(인덱싱)된 키를 통해서 일정한 인덱스를 만드는 것.
+            //해쉬테이블 : 키와 값으로 구성됨.
+            Hashtable ht = new Hashtable();
+            ht["apple"] = "사과";
+            ht["banana"] = "바나나";
+            ht["orange"] = "오렌지";
+            //키을 참조하여 값을 가져온다.
+            Console.WriteLine(ht["apple"]);
+            Console.WriteLine(ht["banana"]);
+            Console.WriteLine(ht["orange"]);
+
+            //딕셔너리 (사전) Dictionary : 키와 값으로 구성되어 있음.
+            Dictionary<string, int> dic = new Dictionary<string, int>();
+            dic.Add("사과", 1000);
+            dic.Add("단감", 2000);
+            Console.WriteLine(dic["사과"]);
+            Console.WriteLine(dic["단감"]);
         }
     }
 }
+
