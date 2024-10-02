@@ -15,7 +15,7 @@ namespace Examples {
 
             Console.WriteLine();
 
-            Console.WriteLine("max:" + FindMin([1, 3, 2, 5, 4]));
+            Console.WriteLine("min:" + FindMin([1,3,2,5,4]));
 
 
             int[] mergedArray = MergeAndSort([1, 3, 5], [2, 4, 6]);
@@ -92,11 +92,10 @@ namespace Examples {
         //4. 배열을 매개변수로 받는 int FindMin(int[] array) 함수를 선언하고
         // 배열의 요소 중 최소값을 찾아서 반환하시오.
         static int FindMin(int[] array) {
-            //int max = array.Max();
-            //return max;
+            //int min = array.Min();
+            //return min;
 
-            Array.Reverse(array); // 내림차순 정렬
-            Console.WriteLine( string.Join(",", array) );
+            Array.Sort(array); // 오름차순 정렬
             return array[0];
         }
 
