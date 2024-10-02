@@ -85,6 +85,19 @@ namespace Examples {
             dic.Add("단감", 2000);
             Console.WriteLine(dic["사과"]);
             Console.WriteLine(dic["단감"]);
+
+            //예외 처리하기
+            //오류 발생시 처리하는 코드를 추가할 수 있다.
+            Console.Write("나눌 숫자를 입력하세요 : ");
+            int divider = int.Parse(Console.ReadLine());
+            try {
+                //오류가 발생될만한 코드
+                Console.WriteLine(10 / divider); //0으로 나누면 오류 발생!
+            } catch(Exception e) {
+                //오류 발생시 실행되는 코드
+                Console.WriteLine("예외 상황 : " + e.Message);
+            }
+
         }
     }
 }
