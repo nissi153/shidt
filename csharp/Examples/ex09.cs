@@ -4,6 +4,13 @@ using System.Collections.Generic;
 namespace Examples {
     internal class ex09 {
         static void Main() {
+
+            int[] arr = { 1, 3, 2, 5, 4 };
+            Array.Sort(arr); //값에 의한 오름차순 정렬
+            Array.Reverse(arr); //위치를 뒤집기
+            Console.WriteLine(string.Join(',', arr));
+
+
             Console.WriteLine(원의둘레( 5 ));
             Console.WriteLine(Max(10, 20, 30));
             Console.WriteLine(Max(20, 10, 30));
@@ -17,6 +24,7 @@ namespace Examples {
 
             Console.WriteLine("min:" + FindMin([1,3,2,5,4]));
 
+            
 
             int[] mergedArray = MergeAndSort([1, 3, 5], [2, 4, 6]);
             Console.WriteLine( string.Join(',', mergedArray));
