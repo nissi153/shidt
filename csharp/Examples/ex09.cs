@@ -10,6 +10,18 @@ namespace Examples {
             Console.WriteLine(Max(30, 10, 20));
 
             CompressString("aaabbcccc");
+
+
+
+            Console.WriteLine();
+
+            Console.WriteLine("max:" + FindMin([1, 3, 2, 5, 4]));
+
+
+            int[] mergedArray = MergeAndSort([1, 3, 5], [2, 4, 6]);
+            Console.WriteLine( string.Join(',', mergedArray));
+
+            Console.WriteLine( DecryptCaesarCipher("Khoor Zruog!") );
         }
         //연습문제 7
         //1. 원의 둘레 구하는 함수를 선언하고,
@@ -79,8 +91,22 @@ namespace Examples {
 
         //4. 배열을 매개변수로 받는 int FindMin(int[] array) 함수를 선언하고
         // 배열의 요소 중 최소값을 찾아서 반환하시오.
+        static int FindMin(int[] array) {
+            //int max = array.Max();
+            //return max;
+
+            Array.Reverse(array); // 내림차순 정렬
+            Console.WriteLine( string.Join(",", array) );
+            return array[0];
+        }
+
         //5. 두개의 배열을 병합하고, 오름차순으로 정렬된 배열을 반환하는 함수를 선언하시오.
         // int[] MergeAndSort(int[] array1, int[] array2) 형식으로 설계하시오.
+        static int[] MergeAndSort(int[] array1, int[] array2) {
+            int[] mergedArray  = array1.Concat(array2).ToArray();
+            Array.Sort(mergedArray);
+            return mergedArray;
+        }
         //6. 간단한 암호해독기 함수를 작성하시오.
         // 시저 암호(Caesar Cipher)는 알파벳을 3칸 이동하여 작성된 암호이다.
         //암호화된 문자열: "Khoor Zruog!" (3칸 오른쪽 이동)
@@ -88,5 +114,17 @@ namespace Examples {
         //string DecryptCaesarCipher(string input); 함수를 설계하여 복호화하시오.
         //아스키 코드표 이용
         //https://blog.naver.com/ouwukwfy/220248439711
+        static string DecryptCaesarCipher(string input) {
+            string decodedString = "";
+            foreach(char c in input) {
+                // 'A' ~ 'Z'                'a' ~ 'z'
+                if((65 <= c && c <= 90) || (97 <= c && c <= 122)) {
+                    decodedString += (char)(c - 3);
+                } else {
+                    decodedString += c;
+                }
+            }
+            return decodedString;
+        }
     }
 }
