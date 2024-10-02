@@ -8,6 +8,8 @@ namespace Examples {
             Console.WriteLine(Max(10, 20, 30));
             Console.WriteLine(Max(20, 10, 30));
             Console.WriteLine(Max(30, 10, 20));
+
+            CompressString("aaabbcccc");
         }
         //연습문제 7
         //1. 원의 둘레 구하는 함수를 선언하고,
@@ -40,6 +42,7 @@ namespace Examples {
             //    }
             //}
             return Math.Max(Math.Max(a, b), c);
+
         }
 
         //3. 문자열 압축 함수
@@ -48,7 +51,32 @@ namespace Examples {
         //예를 들어, 입력이 "aaabbcccc"일 경우 "a3b2c4"를 반환하도록 하세요.
         //접근법:
         //반복문 a부터 z까지 검사하는데, 문자열의 길이만큼 반복
-        
+        static void CompressString(string input) {
+            int[] alphbet = new int[26];
+            // a b c d     z
+            //[0,0,0,0,...,0]
+            //aaabbcccc
+            //[3,2,4,0,....,0]
+            //문자열을 char타입 배열로 변환
+            char[] cArray = input.ToCharArray(); //"aaabbcccc"
+            //['a','a','a','b','b','c','c','c','c']
+            for(int i = 0; i < cArray.Length; i++) {
+                for(int j = 0; j < alphbet.Length; j++) {
+                    //'a'는 아스키코드값으로 97이다.
+                    if(cArray[i] == 'a' + j) {
+                        alphbet[j]++;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(',', alphbet));
+            //"a3b2c4"
+            for(int n = 0; n < alphbet.Length; n++) {
+                if(alphbet[n] > 0) {
+                    Console.Write($"{(char)('a' + n)}{alphbet[n]}");
+                }
+            }
+        }
+
         //4. 배열을 매개변수로 받는 int FindMin(int[] array) 함수를 선언하고
         // 배열의 요소 중 최소값을 찾아서 반환하시오.
         //5. 두개의 배열을 병합하고, 오름차순으로 정렬된 배열을 반환하는 함수를 선언하시오.
