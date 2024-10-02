@@ -45,8 +45,26 @@ namespace Examples {
                 if(typeof(string) == item.GetType()) {
                     Console.WriteLine("string타입입니다.");
                 }
-
                 Console.WriteLine(item);
+            }
+            //큐 Queue : FIFO(First In First Out) 타입의 데이터 구조
+            //           먼저 들어간 데이터가 먼저 나온다.
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(10);
+            queue.Enqueue(20);
+            queue.Enqueue(30);
+            while(queue.Count > 0) {
+                Console.WriteLine(queue.Dequeue());
+            }
+            
+            //스택 Stack : FILO(First In Last Out)
+            //          먼저 들어간 데이터가 맨 나중에 나옴
+            Stack<int> stack = new Stack<int>();
+            stack.Push(10);
+            stack.Push(20);
+            stack.Push(30);
+            while(stack.Count > 0) {
+                Console.WriteLine(stack.Pop());
             }
         }
     }
