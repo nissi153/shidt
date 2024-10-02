@@ -28,9 +28,70 @@ namespace Examples {
             Console.WriteLine(dog.name);
             //Console.WriteLine(dog.eat()); //eat의 반환값이 void는 출력할 수 없다.
             dog.eat();
+
+            Student student = new Student();
+            student.study();
+            Console.WriteLine(student.age);
+
+            Farm farm = new Farm();
+            farm.plant(); farm.plant(); farm.plant(); farm.plant(); farm.plant();
+            Console.WriteLine( farm.getCarrotCount() );
+
+            Calc calc = new Calc();
+            calc.sum(10, 20);
+            Console.WriteLine( calc.result );
         }
     }
     //연습문제 8
+    //1. 학생 Student 클래스를 설계해보자.
+    //  학생의 속성은 int age(초기값 20), 학생의 행동은 study() 공부한다.
+    // student객체를 생성하고, 속성과 행동을 출력하시오.
+    class Student {
+        public int age = 20;
+        public void study() {
+            Console.WriteLine("공부한다.");
+        }
+    }
+    //2. 당근농장 Farm 클래스를 설계해보자.
+    //  속성(변수)로 당근의 갯수를 가지고 있다. 초기값 0
+    //  행동(함수)로 plant(생산)함수를 호출하면, 자신이 가지고 있는 당근의 갯수를 +1한다.
+    // plant함수를 5번 실행한 후에, 당근의 갯수를 출력하시오.
+    class Farm() {
+        //멤버 변수
+        private int carrot = 0;  //외부에 자신의 중요한 값을 감춘다. 캡슐화(은닉)한다.
 
-
+        //getter함수
+        public int getCarrotCount() {
+            return carrot;
+        }
+        //setter함수
+        public void setCarrotCount( int carrot ) {
+            //this : 자신의 클래스를 의미함.
+            this.carrot = carrot;
+        }
+        
+        public void plant() {
+           carrot++;
+        }
+    }
+    //3. 계산기 Calc 클래스를 설계해보자.
+    // 속성(변수)로 결과값 double타입을 가지고 있고,
+    // sum, sub, mul, div (더하기,빼기,곱하기,나누기)를 수행한다.
+    // 매개변수는 double형 2개이고, 반환형은 double이다.
+    // Calc 클래스 객체를 사용하여, 사칙연산을 수행해 보자.
+    class Calc {
+        public double result = 0.0;
+        public void sum(double x, double y) {
+            this.result = x + y;
+        }
+        public void sub(double x, double y) {
+            this.result = x - y;
+        }
+        public void mul(double x, double y) {
+            this.result = x * y;
+        }
+        public void div(double x, double y) {
+            this.result = x / y;
+        }
+    }
 }
