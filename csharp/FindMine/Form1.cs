@@ -45,6 +45,7 @@ namespace FindMine {
             //  1) 숫자를 보여주거나
             //  2) 지뢰가 터진다. "실패한다." -> 버튼에 폭탄이미지 보여주기
             //4. 모든 숫자를 보여주면, "승리한다." ->버튼에 폭탄이미지 보여주기
+            
         }
         //25개의 모든 버튼의 클릭 이벤트를 받는다.
         //sender : 이벤트을 보낸 컨트롤(Button)
@@ -53,6 +54,10 @@ namespace FindMine {
             //클릭된 버튼 가져오기
             Button clickedBtn = (Button)sender;
             MessageBox.Show(clickedBtn.Name + "이 클릭됨");
+
+            //버튼에 폭탄이미지 보여주기
+            //clickedBtn.BackgroundImage = Properties.Resources.bomb;
+            //clickedBtn.BackgroundImageLayout = ImageLayout.Stretch;
         }
     }
 }
