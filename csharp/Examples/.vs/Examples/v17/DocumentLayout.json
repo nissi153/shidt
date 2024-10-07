@@ -3,68 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\examples.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:examples.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,203 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ex13.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex13.cs",
-              "RelativeDocumentMoniker": "ex13.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex13.cs",
-              "RelativeToolTip": "ex13.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAgAAAArAAAAAAAAAA==",
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\test.cs",
+              "RelativeDocumentMoniker": "EX100\\test.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\test.cs",
+              "RelativeToolTip": "EX100\\test.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv3wAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T07:03:44.945Z",
+              "WhenOpened": "2024-10-03T23:54:22.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ex12.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex12.cs",
-              "RelativeDocumentMoniker": "ex12.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex12.cs",
-              "RelativeToolTip": "ex12.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:50:47.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ex11.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex11.cs",
-              "RelativeDocumentMoniker": "ex11.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex11.cs",
-              "RelativeToolTip": "ex11.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:28:51.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ex10.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex10.cs",
-              "RelativeDocumentMoniker": "ex10.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex10.cs",
-              "RelativeToolTip": "ex10.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T04:43:40.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ex09.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex09.cs",
-              "RelativeDocumentMoniker": "ex09.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex09.cs",
-              "RelativeToolTip": "ex09.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T00:15:28.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ex08.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex08.cs",
-              "RelativeDocumentMoniker": "ex08.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex08.cs",
-              "RelativeToolTip": "ex08.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:49:43.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ex07.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex07.cs",
-              "RelativeDocumentMoniker": "ex07.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex07.cs",
-              "RelativeToolTip": "ex07.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T05:24:14.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ex06.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex06.cs",
-              "RelativeDocumentMoniker": "ex06.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex06.cs",
-              "RelativeToolTip": "ex06.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:12:52.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ex05.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex05.cs",
-              "RelativeDocumentMoniker": "ex05.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex05.cs",
-              "RelativeToolTip": "ex05.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAxwLkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T05:04:40.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ex04.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex04.cs",
-              "RelativeDocumentMoniker": "ex04.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex04.cs",
-              "RelativeToolTip": "ex04.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T05:42:48.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ex03.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex03.cs",
-              "RelativeDocumentMoniker": "ex03.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex03.cs",
-              "RelativeToolTip": "ex03.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvwgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T05:39:35.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Examples",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
-              "RelativeDocumentMoniker": "Examples.csproj",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Examples.csproj",
-              "RelativeToolTip": "Examples.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T04:48:12.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "ex01.cs",
               "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
               "RelativeDocumentMoniker": "EX100\\ex01.cs",
               "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
               "RelativeToolTip": "EX100\\ex01.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAywBEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T04:40:02.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ex02.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex02.cs",
-              "RelativeDocumentMoniker": "ex02.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex02.cs",
-              "RelativeToolTip": "ex02.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:06:51.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ex01.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex01.cs",
-              "RelativeDocumentMoniker": "ex01.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\ex01.cs",
-              "RelativeToolTip": "ex01.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:15:17.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:04:12.103Z",
+              "WhenOpened": "2024-10-03T23:30:08.17Z",
               "EditorCaption": ""
             }
           ]
