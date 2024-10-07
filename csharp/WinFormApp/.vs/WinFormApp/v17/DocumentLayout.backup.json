@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\csharp\\WinFormApp\\",
+  "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CABE3062-856E-48F5-9EFA-6BE57C1C31F4}|WinFormApp.csproj|c:\\users\\samsung\\documents\\csharp\\winformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CABE3062-856E-48F5-9EFA-6BE57C1C31F4}|WinFormApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|c:\\users\\samsung\\documents\\github\\csharp\\winformapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CABE3062-856E-48F5-9EFA-6BE57C1C31F4}|WinFormApp.csproj|c:\\users\\samsung\\documents\\csharp\\winformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CABE3062-856E-48F5-9EFA-6BE57C1C31F4}|WinFormApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|c:\\users\\samsung\\documents\\github\\csharp\\winformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|c:\\users\\samsung\\documents\\github\\csharp\\winformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E24793-6FB4-4642-914E-94E878D018E0}|WinFormApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\csharp\\WinFormApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\csharp\\WinFormApp\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwCgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T07:05:46.28Z",
-              "IsPinned": true,
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-10-07T00:28:19.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vw0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T00:02:11.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\csharp\\WinFormApp\\Form1.cs",
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\csharp\\WinFormApp\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\csharp\\WinFormApp\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T07:43:55.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-10-06T23:45:59.975Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
             }
           ]
         }
