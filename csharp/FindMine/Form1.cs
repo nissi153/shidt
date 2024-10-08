@@ -12,6 +12,7 @@ namespace FindMine {
     public partial class Form1 : Form {
         //배열,List,ArrayList
         List<Button> btnList = new List<Button>();
+        int[,] map = new int[5,5];
 
         //생성자함수 : 클래스생성시 자동호출
         public Form1() {
@@ -27,7 +28,7 @@ namespace FindMine {
                     btnList.Add((Button)controls[0]);
                 }
             }
-            display.Text = "찾은 버튼 갯수" + btnList.Count;
+            //display.Text = "찾은 버튼 갯수" + btnList.Count;
             foreach(Button btn in btnList) {
                 btn.Text = "";
                 //버튼이벤트 연결
@@ -38,12 +39,28 @@ namespace FindMine {
             //   0 0 0 0 1
             //   0 0 0 1 0
             //   0 1 0 0 0
-            //   0 0 0 0 0
+            //   0 0 0 1 0
+            //   0 0 1 0 0
+
             //2. 5x5에 랜덤한 위치에 0~4,0~4 랜덤수를 2번 뽑는다.
             //  폭탄을 map 데이터에 업데이트 한다.
+            Random random = new Random();
+            for(int i = 0; i<10; i++) { //10개정도 설치
+                int randomRow = random.Next(0, 4);
+                int randomCol = random.Next(0, 4);
+                map[randomRow,randomCol] = 1; //지뢰 설치
+            }
+            for(int i = 0; i < 5; i++) {
+                for(int j = 0; j < 5; j++) {
+                    Console.Write(map[i,j]+",");
+                }
+                Console.WriteLine();
+            }
+
             //3. 클릭이벤트에서 버튼 클릭시
             //  1) 숫자를 보여주거나
             //  2) 지뢰가 터진다. "실패한다." -> 버튼에 폭탄이미지 보여주기
+
             //4. 모든 숫자를 보여주면, "승리한다." ->버튼에 폭탄이미지 보여주기
             
         }
@@ -53,7 +70,47 @@ namespace FindMine {
         private void onButtonClick(object sender, EventArgs e) {
             //클릭된 버튼 가져오기
             Button clickedBtn = (Button)sender;
-            MessageBox.Show(clickedBtn.Name + "이 클릭됨");
+            //MessageBox.Show(clickedBtn.Name + "이 클릭됨");
+            Console.WriteLine("클릭된 버튼 Name:"+ clickedBtn.Name);
+            //   0 0 0 0 1 map
+            //   0 0 0 1 0
+            //   0 1 0 0 0
+            //   0 0 0 1 0
+            //   0 0 1 0 0
+            //"button1"의 row,col 인덱스를 가져오기
+            //button1 row 0, col 0
+            //button2 row 0, col 1
+            //button5 row 0, col 4
+            //button6 row 1, col 0
+            //1 ~ 25까지의 값을 row값,col값
+            // row값 : 5의 몫, col값 : 5의 나머지
+            //"button1"문자열에서 "1"만 가져와서 숫자로 바꿈
+
+            // "button10"에서 "button"문자열 제거
+            string buttonNum = clickedBtn.Name.Substring(6);
+            // 문자를 숫자로 변환
+            int buttonNumInt = int.Parse(buttonNum);
+            Console.WriteLine("buttonNumInt:" + buttonNumInt);
+
+            int row = (buttonNumInt - 1) / 5;
+            int col = (buttonNumInt - 1) % 5;
+            Console.WriteLine($"{row},{col}");
+
+            //팔방의 폭탄의 갯수를 세기
+            //   0 0 0 0 1 map
+            //   0 0 0 1 0
+            //   0 1 0 0 0
+            //   0 0 0 1 0
+            //   0 0 1 0 0
+            //왼쪽 위
+            //왼쪽 중간
+            //왼쪽 아래
+            //윗쪽
+            //오른쪽 위
+            //오른쪽 중간
+            //오른쪽 아래
+            //아랫쪽
+
 
             //버튼에 폭탄이미지 보여주기
             //clickedBtn.BackgroundImage = Properties.Resources.bomb;
