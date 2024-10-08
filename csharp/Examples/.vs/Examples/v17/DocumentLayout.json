@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\csharp\\Examples\\",
+  "WorkspaceRootPath": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26946743-66DC-4A6B-938A-9970D015BA91}|Examples.csproj|c:\\users\\samsung\\documents\\csharp\\examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26946743-66DC-4A6B-938A-9970D015BA91}|Examples.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|c:\\users\\samsung\\documents\\github\\shidt\\csharp\\examples\\ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F3B20D-A1AF-44E2-AAD7-F1347DDD089F}|Examples.csproj|solutionrelative:ex100\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\csharp\\Examples\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\samsung\\Documents\\csharp\\Examples\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\test.cs",
+              "RelativeDocumentMoniker": "EX100\\test.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\test.cs",
+              "RelativeToolTip": "EX100\\test.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv3wAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T07:40:12.248Z",
+              "WhenOpened": "2024-10-03T23:54:22.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ex01.cs",
+              "DocumentMoniker": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
+              "RelativeDocumentMoniker": "EX100\\ex01.cs",
+              "ToolTip": "C:\\Users\\samsung\\Documents\\GitHub\\shidt\\csharp\\Examples\\EX100\\ex01.cs",
+              "RelativeToolTip": "EX100\\ex01.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:30:08.17Z",
               "EditorCaption": ""
             }
           ]
