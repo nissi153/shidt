@@ -13,6 +13,8 @@ namespace FindMine {
         //배열,List,ArrayList
         List<Button> btnList = new List<Button>();
         int[,] map = new int[5,5];
+        int mineCount = 0;
+        int foundNumber = 0;
 
         //생성자함수 : 클래스생성시 자동호출
         public Form1() {
@@ -53,6 +55,9 @@ namespace FindMine {
             for(int i = 0; i < 5; i++) {
                 for(int j = 0; j < 5; j++) {
                     Console.Write(map[i,j]+",");
+                    if( map[i,j] == 1) {
+                        mineCount++;
+                    }
                 }
                 Console.WriteLine();
             }
@@ -96,25 +101,83 @@ namespace FindMine {
             int col = (buttonNumInt - 1) % 5;
             Console.WriteLine($"{row},{col}");
 
+            //자신이 폭탄인 경우
+            if(map[row, col] == 1) {
+                display.Text = "게임 실패";
+                //버튼에 폭탄이미지 보여주기
+                clickedBtn.BackgroundImage = Properties.Resources.bomb;
+                clickedBtn.BackgroundImageLayout = ImageLayout.Stretch;
+                return;
+            }
+
             //팔방의 폭탄의 갯수를 세기
             //   0 0 0 0 1 map
             //   0 0 0 1 0
             //   0 1 0 0 0
             //   0 0 0 1 0
             //   0 0 1 0 0
+            int mineCount = 0;
+
             //왼쪽 위
+            if( row > 0 && col > 0) {
+                if(map[row - 1, col - 1] == 1) {
+                    mineCount++;
+                }
+            }
+
             //왼쪽 중간
+            if(col > 0) {
+                if(map[row, col - 1] == 1) {
+                    mineCount++;
+                }
+            }
             //왼쪽 아래
+            if(row < 4 && col > 0) {
+                if(map[row + 1, col - 1] == 1) {
+                    mineCount++;
+                }
+            }
+
             //윗쪽
+            if( row > 0) {
+                if(map[row - 1, col] == 1) {
+                    mineCount++;
+                }
+            }
+
             //오른쪽 위
+            if(row > 0 && col < 4) {
+                if(map[row - 1, col + 1] == 1) {
+                    mineCount++;
+                }
+            }
             //오른쪽 중간
+            if(col < 4) {
+                if(map[row, col + 1] == 1) {
+                    mineCount++;
+                }
+            }
             //오른쪽 아래
+            if(row < 4 && col < 4) {
+                if(map[row + 1, col + 1] == 1) {
+                    mineCount++;
+                }
+            }
             //아랫쪽
+            if(row < 4) {
+                if(map[row + 1, col] == 1) {
+                    mineCount++;
+                }
+            }
 
+            Console.WriteLine("지뢰의 갯수:" + mineCount);
+            clickedBtn.Text = mineCount.ToString();
+            foundNumber++;
 
-            //버튼에 폭탄이미지 보여주기
-            //clickedBtn.BackgroundImage = Properties.Resources.bomb;
-            //clickedBtn.BackgroundImageLayout = ImageLayout.Stretch;
+            //게임판정
+            if( 25-this.mineCount == foundNumber) {
+                display.Text = "모든 지뢰를 찾았습니다! 성공!";
+            }
         }
     }
 }
