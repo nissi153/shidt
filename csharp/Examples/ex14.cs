@@ -60,6 +60,27 @@ namespace Examples {
                 Console.WriteLine(num);
             }
 
+            //2.선택정렬 : 
+            nums = [10, 30, 20, 50, 40];
+            int minIndex = 0;
+            for(int i = 0; i < 5; i++) {
+                minIndex = i;
+                for(int j = i + 1; j < 5; j++) {
+                    if(nums[j] < nums[minIndex]) {
+                        //더 작은 값을 발견! minIndex값을 변경
+                        minIndex = j;
+                    }
+                }
+                Console.WriteLine(minIndex);
+                //치환
+                int tmp = nums[i];
+                nums[i] = nums[minIndex];
+                nums[minIndex] = tmp;
+            }
+            foreach(int num in nums) {
+                Console.WriteLine(num);
+            }
+
         }
     }
 }
