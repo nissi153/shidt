@@ -80,7 +80,24 @@ namespace Examples {
             foreach(int num in nums) {
                 Console.WriteLine(num);
             }
-
+            //3. 삽입 정렬
+            // 인덱스 1(두번째)부터 시작하고
+            //자기보다 왼쪽에 있는 값들을 비교하고
+            //더 작은 값이면 치환한다.
+            //교환할 값을 가진 key변수를 사용
+            nums = [10, 30, 20, 50, 40];
+            int key = 0;
+            for(int i = 1; i < 5; i++) {
+                key = nums[i];
+                int j = i - 1;
+                while( j>= 0 && nums[j] > key) {
+                    nums[j + 1] = nums[j];
+                }
+                nums[j + 1] = key;
+            }
+            foreach(int num in nums) {
+                Console.WriteLine(num);
+            }
         }
     }
 }
